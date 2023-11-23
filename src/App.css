@@ -1,0 +1,25 @@
+@tailwind components;
+
+@layer components {
+  .App {
+    @apply z-0 relative flex justify-center items-start flex-col 
+    px-36 py-12 gap-12
+  }
+  header{
+    @apply flex justify-center items-start
+  }
+  article{
+    @apply flex justify-center items-center
+  }
+  .bg-desktop {
+    @apply z-0 w-full fixed h-full top-0 left-0
+  }
+
+  .mockups {
+    @apply z-20 relative
+  }
+
+  .hunddle {
+    @apply z-20 relative
+  }
+}
