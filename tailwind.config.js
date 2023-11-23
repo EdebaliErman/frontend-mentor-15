@@ -8,7 +8,8 @@ module.exports = {
         SoftMagenta: "hsl(300, 69%, 71%)"
       },
       fontFamily: {
-        'Poppins': ['Poppins', "sans-serif"]
+        'poppins': ['Poppins', "sans-serif"],
+        'opensans': ['Open Sans', "sans-serif"]
       }
     },
   },
