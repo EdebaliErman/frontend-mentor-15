@@ -2,11 +2,11 @@
 
 @layer components {
   .App {
-    @apply z-0 relative flex justify-center items-start flex-col flex-wrap
-    px-36 py-12 gap-12 sm:p-4
+    @apply z-0 relative flex justify-center items-start flex-col flex-wrap bg-[url('../public/assets/bg-desktop.svg')]  bg-no-repeat bg-cover
+    px-36 py-12 gap-12 sm:p-4 sm:bg-none lg:bg-none
   }
   header{
-    @apply flex justify-center items-start 
+    @apply flex justify-center items-start  
   }
   article{
     @apply flex justify-start items-start 
@@ -14,10 +14,10 @@
 
   }
   .bg-desktop {
-    @apply z-0 w-full fixed h-full top-0 left-0 sm:hidden
+    @apply z-0 w-full fixed  top-0 left-0  hidden sm:flex lg:flex
   }
-  .bg-desktop {
-    @apply z-0 w-full fixed h-full top-0 left-0 xl:hidden
+  .bg-mobil {
+    @apply z-0 w-full fixed  top-0 left-0  
   }
   .mockups {
     @apply z-20 relative  sm:mb-3 sm:mt-[-1rem]
