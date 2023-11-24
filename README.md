@@ -2,15 +2,21 @@
 
 <img src="public/assets/desktop.png" alt="no.png">
 
+## Action
+
+<img src="public/assets/desktop2.png" alt="no.png">
+
+<img src="public/assets/desktop3.png" alt="no.png">
+
 # Mobil
 
 <img src="public/assets/mobil.png" alt="no.png">
 
 ## Action
 
-<img src="public/assets/mobil2.png" alt="no.png">
+<img src="public/assets/mobile2.png" alt="no.png">
 
-<img src="public/assets/mobil3.png" alt="no.png">
+<img src="public/assets/mobile3.png" alt="no.png">
 
 # Getting Started with Create React App
 
