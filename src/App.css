@@ -2,32 +2,41 @@
 
 @layer components {
   .App {
-    @apply z-0 relative flex justify-center items-start flex-col 
-    px-36 py-12 gap-12
+    @apply z-0 relative flex justify-center items-start flex-col flex-wrap
+    px-36 py-12 gap-12 sm:p-4
   }
   header{
-    @apply flex justify-center items-start
+    @apply flex justify-center items-start 
   }
   article{
-    @apply flex justify-start items-start
+    @apply flex justify-start items-start 
+    md:flex-wrap md:items-center md:justify-center
+
   }
   .bg-desktop {
-    @apply z-0 w-full fixed h-full top-0 left-0
+    @apply z-0 w-full fixed h-full top-0 left-0 sm:hidden
   }
-
+  .bg-desktop {
+    @apply z-0 w-full fixed h-full top-0 left-0 xl:hidden
+  }
   .mockups {
-    @apply z-20 relative
+    @apply z-20 relative  sm:mb-3 sm:mt-[-1rem]
   }
 
   .hunddle {
-    @apply z-20 relative
+    @apply z-20 relative md:w-36 sm:mb-5
   }
   footer{
     @apply fill-white flex justify-end items-end w-full gap-12 mt-28 relative 
+    sm:justify-center sm:items-center sm:mt-1 sm:gap-3
   }
   
   footer svg {
-    @apply w-8 h-8  cursor-pointer   
+    @apply w-8 h-8  cursor-pointer  
+
+  }
+  footer span{
+    @apply sm:w-10 sm:h-10 sm:flex sm:justify-center sm:items-center   
   }
   
 }

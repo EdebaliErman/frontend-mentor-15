@@ -5,6 +5,7 @@ function App() {
   return (
     <div className='App'>
       <img className="bg-desktop" src={process.env.PUBLIC_URL + "assets/bg-desktop.svg"} alt='desktop' />
+      <img className="bg-mobil" src={process.env.PUBLIC_URL + "assets/bg-mobile.svg"} alt='desktop' />
       <header>
         <img className="hunddle" src={process.env.PUBLIC_URL + "assets/logo.svg"} alt='desktop' />
       </header>
